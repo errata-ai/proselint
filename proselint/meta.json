@@ -4,6 +4,7 @@
   "email": "support@errata.ai",
   "lang": "en",
   "url": "https://github.com/errata-ai/proselint/releases/latest/download/proselint.zip",
+  "feed": "https://github.com/errata-ai/proselint/releases.atom",
   "license": "BSD-3-Clause",
   "name": "proselint",
   "sources": [
@@ -11,5 +12,5 @@
   ],
   "vale_version": ">=1.0.0",
   "coverage": 0.0,
-  "version": "0.1.0",
+  "version": "0.1.0"
 }
