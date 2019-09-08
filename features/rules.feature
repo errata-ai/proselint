@@ -20,7 +20,6 @@ Feature: Rules
       test.md:21:1:proselint.Hedging:'I would argue that' is hedging.
       test.md:23:4:proselint.Hyperbole:'exaggerated!!!' is hyperbolic.
       test.md:25:14:proselint.Jargon:'in the affirmative' is jargon.
-      test.md:27:10:proselint.Illusions:'the the' - There's a lexical illusion here.
       test.md:29:14:proselint.LGBTOffensive:'fag' is offensive. Remove it or consider the context.
       test.md:29:44:proselint.LGBTTerms:Consider using 'sexual orientation' instead of 'sexual preference'.
       test.md:31:10:proselint.Malapropisms:'the Infinitesimal Universe' is a malapropism.

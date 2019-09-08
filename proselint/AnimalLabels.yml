@@ -1,6 +1,8 @@
 extends: substitution
 message: "Consider using '%s' instead of '%s'."
 level: error
+action:
+  name: replace
 swap:
   (?:bull|ox)-like:  taurine
   (?:calf|veal)-like: vituline

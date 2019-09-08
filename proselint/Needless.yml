@@ -1,6 +1,8 @@
 extends: substitution
 message: Prefer '%s' over '%s'
 ignorecase: true
+action:
+  name: replace
 swap:
   '(?:cell phone|cell-phone)': cellphone
   '(?:cliquey|cliquy)': cliquish
