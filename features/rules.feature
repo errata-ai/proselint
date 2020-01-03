@@ -1,6 +1,14 @@
 Feature: Rules
 
-  Scenario: Cliches
+  Scenario: Rules about punctuation
+    When I test "punctuation"
+    Then the output should contain exactly:
+      """
+      test.md:3:17:proselint.Hyperbole:'idea!!' is hyperbolic.
+      test.md:8:23:proselint.Hyperbole:'here!!' is hyperbolic.
+      """
+
+  Scenario: Basic tests
     When I test "basic"
     Then the output should contain exactly:
       """
