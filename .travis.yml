@@ -4,7 +4,8 @@ python:
   - "3.6"
 install:
   # Install the latest release of Vale:
-  - go get github.com/errata-ai/vale
+  - curl -sL https://install.goreleaser.com/github.com/ValeLint/vale.sh | bash
+  - export PATH=./bin:"$PATH"
 
   - bundle install --jobs=3
 
