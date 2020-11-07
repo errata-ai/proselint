@@ -6,6 +6,7 @@ Feature: Rules
       """
       test.md:3:17:proselint.Hyperbole:'idea!!' is hyperbolic.
       test.md:8:23:proselint.Hyperbole:'here!!' is hyperbolic.
+      test.md:12:14:proselint.DateCase:With lowercase letters, the periods are standard.
       """
 
   Scenario: Basic tests
