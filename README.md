@@ -6,19 +6,14 @@ This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) 
 
 ## Getting Started
 
-> :exclamation: proselint requires Vale >= **1.7.0**. :exclamation:
-
-Download the [latest release](https://github.com/errata-ai/proselint/releases), copy the "proselint" directory to your `StylesPath`, and include it in your configuration file:
+To get started, add the package to your configuration file (as shown below) and then run `vale sync`.
 
 ```ini
-# This goes in a file named either `.vale.ini` or `_vale.ini`.
-StylesPath = path/to/some/directory
-MinAlertLevel = warning # suggestion, warning or error
+StylesPath = styles
+MinAlertLevel = suggestion
 
-# Only Markdown and .txt files; change to whatever you're using.
-[*.{md,txt}]
-# List of styles to load.
+Packages = proselint
+
+[*]
 BasedOnStyles = proselint
 ```
-
-See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
